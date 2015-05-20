@@ -26,8 +26,6 @@ class Triangle
   end
 end
 
-binding.pry
-
 class TestMeme < Minitest::Test
   def test_equilateral
     t = Triangle.new(5,5,5)
